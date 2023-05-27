@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="engl">
+    <head>
+        <meta charset="UTF-8">
+        <title> HTML</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <div class="header">
+            <header> 
+              <nav>
+                <ul>
+                  <li><a href="Index.html"> Home</a></li>
+                  <li><a href="Inregistrare.html"> Inregistrare</a> </li>
+                  <li><a href ="Audio.html">  Audio si Video</a></li>
+                 
+                </ul>
+               </nav>
+             </header>  
+         </div> 
+         <div class="container">
+          <article>
+            <h3> Ce sunt formularele HTML?  </h3>
+            <p> Formularele (engl. forms) sunt un simplu instrument pentru colectarea informaţiilor de la vizitatorii unui site. Formularele permit utilizatorilor să trimită comentarii şi întrebări, să ceară o informaţie, să se înregistreze pentru primirea unui buletin informativ, respectiv newsletter, să completeze o aplicaţie online sau să introducă informaţii pentru plată, pentru cumpărarea unui produs nou.</p>
+            <h3>Cum se creează formularele HTML?</h3>
+            <p> Formularul HTML se creează prin folosirea elementului form. Când se foloseşte metoda GET şi când metoda POST?Se recomandă folosirea metodei GET în situaţiile care nu necesită crearea noilor date. De exemplu, dacă pe site trebuie implementată căutarea formularului cu câmpul pentru introducerea unui criteriu, datele s-ar fi transmis cu ajutorul metodei GET. Formularul pentru crearea contului de utilizator pe un site, transmite, în general, datele prin folosirea metodei POST.</p>
+           <img src="img/formular.png" alt="formular" width="600px" height="250px">
+           <p>Pe baza pozei de mai sus vom afisa si noi un formular </p>
+           <div class="form">
+            <form action="" method="POST">
+              <fieldset>
+                  <legend> Contact Details </legend>
+                  <label> Name </label> <br>
+                  <input type="text" name="username" id="username" placeholder="name" required><br>
+                  <label> Password</label><br>
+                  <input type ="password" name="password" id="password" placeholder="password" required><br>
+                  <label> Confirm Password</label><br>
+                  <input type ="confirmpassword" name="confirmpassword" id="password" placeholder="confirmpassword" required>
+                  <input type ="submit" value="Submit">
+              </fieldset>
+          </form>
+           </div>
+          
+           <h3> Imaginile in HTML</h3>
+           <p> Imaginile sunt o parte indispensabilă a documentelor HTML din prezent.Pentru adăugarea imaginii în documentul HTML, folosim elementul img. Acest element se construieşte prin folosirea tagului cu autoînchidere, deoarece nu poate accepta conţinut, ci doar atribute. Elementul img defineşte două atribute obligatorii, şi anume: 
+            <ul>
+              <li>src -reprezintă locaţia la care se află imaginea; locaţia se defineşte prin folosirea adresei URL; </li>
+              <li> alt -defineşte textul care se va afişa vizitatorului site-ului, dacă din orice motiv imaginea nu se poate afişa; acest text este folosit şi de cititoarele mecanice ale paginilor HTML, pentru o înţelegere mai bună a conţinutului imaginii.</li>
+            </ul>
+            Structura elementului img in HTML este prezentat in urmatoarea imagine </p>
+            <img src="img/imagini.png" alt="imagine" width="500px" height="200px"><a href ="audio.html"> Click pentru continuarea lectiei</a>
+
+          </article>
+          <div class="footer">
+            <footer>
+                 <p> &copy; Alexandra 2023</p>
+            </footer>
+        </div>
+         </div>
+    </body>
+</html>
